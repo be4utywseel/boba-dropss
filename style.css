@@ -1,5 +1,5 @@
 .low-opacity-bg-image {
-    background-image: url(IMG_2182.png);
+    background-image: url("backgroundimage.png");
     background-size: cover;
     background-position: center;
     display: grid;
