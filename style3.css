@@ -1,5 +1,5 @@
 .low-opacity-bg-image {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGf7pVGu0LlDFGjM64uz4qsoHtZvsAuBnDSb0TmqH0xQ&s=10");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpj6UuwR-IGBiPotVUwDEsfMvmRR1vt-S0_-Gxtq6LmQ&s=10");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@ position: absolute;
 z-index: -1;
 inset: 0; 
 background: white;
-opacity: .77;
+opacity: .67;
 }
 h1 {
     font-size: 40px;
@@ -25,21 +25,36 @@ h1 {
     margin-top: 100px;
     font-family: Eternalove;
 }
-h4 { 
+h2 { 
     
     font-size: 20px;
     color: rgb(2, 15, 73);
     text-align: center;
-    margin-top: 40px;
+    margin-top: -80px;
     font-family: Eternalove;
-    max-width: 400px;       /* Restricts the paragraph from stretching too wide */
-    margin-left: 150px;         /* Centers the entire paragraph block horizontally */
+    max-width: 300px;       /* Restricts the paragraph from stretching too wide */
+    margin-left: 530px;         /* Centers the entire paragraph block horizontally */
     text-align: justify;    /* Aligns text evenly on both left and right sides */
-    line-height: 1.3;       /* Optional: Adds comfortable spacing between lines */
+    line-height: 1.3;  
 }
-.racoon-sticker {
-    width: 350px;
-    margin-left: 600px;
-    margin-top: -200px;
-    margin-bottom: 900px;
+.film-sticker {
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    left: 240px;
 }
+.map-sticker {
+    width: 150px;
+    position: absolute;
+    top: 190px;
+    bottom: 200px;
+    left: 350px;
+}
+.third-sticker {
+    width: 150px;
+    position: absolute;
+    top:280px;
+    bottom: 200px;
+    left: 190px;
+}
+    
