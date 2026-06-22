@@ -69,12 +69,12 @@ h3 {
 
 .horizontal-menu a {
     text-decoration: none;
-    color: #0b1556;
+    color: #030b42;
     padding: 10px;
     transition: background-color 0.3s;
 }
 
 .horizontal-menu a:hover {
-    background-color: #b0aeae;
+    background-color: #a09f9f;
     color: #080338;
 }

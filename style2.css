@@ -1,0 +1,45 @@
+.low-opacity-bg-image {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGf7pVGu0LlDFGjM64uz4qsoHtZvsAuBnDSb0TmqH0xQ&s=10");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    text-align: center;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Prevents scrollbars */
+    position: relative;
+    isolation: isolate;
+}
+.low-opacity-bg-image::after {
+content: '';
+position: absolute;
+z-index: -1;
+inset: 0; 
+background: white;
+opacity: .57;
+}
+h1 {
+    font-size: 40px;
+    color: rgb(50, 9, 10);
+    text-align: center;
+    margin-top: 100px;
+    font-family: Eternalove;
+}
+p { 
+    
+    font-size: 20px;
+    color: rgb(2, 15, 73);
+    text-align: center;
+    margin-top: 40px;
+    font-family: Eternalove;
+    max-width: 400px;       /* Restricts the paragraph from stretching too wide */
+    margin-left: 150px;         /* Centers the entire paragraph block horizontally */
+    text-align: justify;    /* Aligns text evenly on both left and right sides */
+    line-height: 1.3;       /* Optional: Adds comfortable spacing between lines */
+}
+.racoon-sticker {
+    width: 350px;
+    margin-left: 600px;
+    margin-top: -200px;
+    margin-bottom: 900px;
+}
